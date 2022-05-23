@@ -3,14 +3,15 @@ This is a app that can track your vitals and report it to a nurse. It uses machi
 
 <h1>Technologies Used</h1>
 <h2> Backend </h2>
-1. `Express`
-2. `TensowFlow` for machine learning
-3. `graphql` for APIs
-4. `JWT` for authentication.
-5. `MongoDB` database
 
-<h1> Backend </h1>
-1. `React`
+`Express` Server, `TensowFlow` for machine learning, `GraphQL` for APIs , `JWT` for authentication, `MongoDB` Database . 
+
+<h2> Frontend </h2>
+
+`React`
+
+<h2>Data</h2>
+I got a csv data file online cleaned up data using some javascipt and converted it to a json file.
 
 
 <h1> Instructions for running </h1>
