@@ -1,0 +1,147 @@
+.home-main {
+    display: flex;
+    flex-direction: row;
+    /* flex-wrap: wrap; */
+    gap: 20px;
+}
+
+.outerbox {
+    transition: 0.3s all;
+}
+
+.outerbox:hover {
+    background-color: black;
+    color: white;
+}
+
+.course-card {
+    border: 2px black solid;
+    padding-left: 20px;
+    padding-right: 20px;
+    width: 300px;
+    height: 100%;
+}
+
+.stu-card {
+    width: 350px;
+    transition: 0.3s all;
+}
+
+.stu-card:hover {
+    background-color: black;
+    color: white;
+}
+
+.user-profile {
+    border-right: 2px black solid;
+    padding-right: 20px;
+    min-width: 250px;
+}
+
+.user-courses {
+    /* min-width: 384px; */
+    width: auto;
+}
+
+.add-course {
+    padding: 10px;
+    border: 2px black solid;
+    background-color: black;
+    color: white;
+    font-size: large;
+    font-weight: 500;
+    float: right;
+    margin-left: auto;
+    transition: 0.25s all;
+    cursor: pointer;
+}
+
+.add-course:hover {
+    background-color: white;
+    color: black;
+}
+
+.course-select {
+    width: 80%;
+    font-size: large;
+}
+
+.cancel {
+    float: none;
+}
+
+.bottom-span {
+    width: 100%;
+}
+
+.icons {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.icon {
+    cursor: pointer;
+    transition: 0.3s all;
+}
+
+.icon:hover {
+    transform: scale(1.1);
+}
+
+.edit-sec {
+    margin-bottom: 24px;
+}
+
+.cards {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.toastMessage{
+    position: fixed;
+    top:5rem;
+    right:2rem;
+    padding:1rem;
+    background-color: rgb(39, 39, 39);
+    border-left:red 5px solid;
+    border-radius: 4px;
+    color:white;
+    max-width: 300px;
+}
+
+.close{
+    background-color: transparent;
+    border: none;
+    color: red;
+    font-weight: 700;
+    float: right;
+    margin-inline: 1rem 0.5rem;
+    margin-bottom:1rem ;
+    cursor: pointer;
+}
+
+.loading{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.spinner{
+    height: 2rem;
+    width: 2rem;
+}
+
+@media (max-width: 780px) {
+    .home-main {
+        flex-wrap: wrap;
+    }
+    .user-profile {
+        border-right: none;
+        padding-right: 20px;
+    }
+}

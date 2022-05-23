@@ -1,0 +1,137 @@
+label {
+    display: block;
+    max-width: 400px;
+    margin-bottom: 10px;
+}
+
+input {
+    float: right;
+    margin-left: auto;
+}
+
+small {
+    display: block;
+}
+
+.form-container {
+    width: 450px;
+    margin: 0 auto;
+    margin-top: 150px;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 40px;
+    padding-bottom: 100px;
+}
+
+.xl {
+    font-size: x-large;
+}
+
+.l {
+    font-size: large;
+}
+
+.m {
+    font-size: medium;
+    font-weight: 600;
+}
+
+.red {
+    color: rgb(250, 106, 106);
+}
+
+.header {
+    font-size: x-large;
+}
+
+.submit {
+    width: 150px;
+    padding: 3px;
+    background-color: black;
+    color: white;
+    border: 1px black solid;
+    cursor: pointer;
+    margin-top: 20px;
+    margin-right: 20px;
+}
+
+.submit:hover {
+    background-color: white;
+    color: black;
+    transition: 0.25s all;
+}
+
+
+/* ======= Nurse -============= */
+
+.input-tip {
+    float: none;
+    width: 100%;
+    height: 30px;
+}
+
+.send-tip-btn {
+    padding: 5px;
+    border: 2px black solid;
+    background-color: black;
+    color: white;
+    font-size: large;
+    font-weight: 500;
+    width: 100%;
+    transition: 0.25s all;
+    cursor: pointer;
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+
+.send-tip-btn:hover {
+    border: 2px rgb(54, 54, 54) solid;
+    color: black;
+    background-color: white;
+}
+
+.bg-green {
+    background-color: rgb(0, 171, 0);
+    color: white;
+    font-weight: 600;
+    font-size: x-large;
+}
+
+.bg-green:hover {
+    background-color: none;
+    color: none;
+}
+
+.tips {
+    margin-top: 100px;
+}
+
+.tips-header {
+    font-size: x-large;
+    font-weight: 600;
+    margin: 0px;
+}
+
+.tip {
+    padding: 2px 10px;
+    margin-bottom: 5px;
+    padding-bottom: 20px;
+    background-color: rgb(201, 201, 201);
+    color: black;
+    font-size: large;
+    font-weight: 600;
+}
+
+.nurse-input {
+    float: none;
+    margin-left: none;
+}
+
+small {
+    float: right;
+    margin-left: auto;
+    margin-bottom: 10px;
+}

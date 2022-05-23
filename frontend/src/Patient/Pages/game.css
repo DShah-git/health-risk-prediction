@@ -1,0 +1,29 @@
+.indi-game {
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 20px;
+    transition: all 0.25s;
+}
+
+.indi-game:hover {
+    background-color: rgb(30, 30, 30);
+    color: white;
+}
+
+.game-img {
+    max-width: 400px;
+    max-height: 300px;
+    cursor: pointer;
+}
+
+.game-txt {
+    font-size: x-large;
+    font-weight: 600;
+    max-width: 500px;
+}
+
+.game {
+    height: 85vh;
+}

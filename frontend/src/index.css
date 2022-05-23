@@ -1,0 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;300&family=Montserrat:wght@300&family=Poppins:wght@200;400&family=Quicksand:wght@300&display=swap');
+body {
+    margin: 0;
+    font-family: 'Quicksand', sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+::selection {
+    color: white;
+    background: rgb(44, 44, 44);
+}
